@@ -1,5 +1,15 @@
 # gradio
 
+## 6.16.0
+
+### Features
+
+- [#13422](https://github.com/gradio-app/gradio/pull/13422) [`96d4fd1`](https://github.com/gradio-app/gradio/commit/96d4fd1dc402e05b46249f9434bc503b4a307750) - Make the session heartbeat interval configurable via the `GRADIO_HEARTBEAT_INTERVAL` environment variable (#13346).  Thanks @wjddnwp29!
+
+### Fixes
+
+- [#13240](https://github.com/gradio-app/gradio/pull/13240) [`0d670ad`](https://github.com/gradio-app/gradio/commit/0d670adf41a0b510f7fd745495dce1664d38f0e5) - Fix browser freeze when a dataframe's value is set (e.g. via a tab select event), and only dispatch the tabs select event when the selected tab actually changes.  Thanks @freddyaboulton!
+
 ## 6.15.2
 
 ### Features
